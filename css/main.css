@@ -53,9 +53,11 @@ justify-content: center;
     justify-content: center;
     margin-bottom: 1em;
   }
+
   .image_mapa{
     width:90%;
     height: auto;
+    border-radius: 10%;
   }
   .title{
     text-align: center;
@@ -67,4 +69,5 @@ justify-content: center;
     width:100%;
     height:auto;
     margin-top:1em;
+    border-radius: 7%;
   }
