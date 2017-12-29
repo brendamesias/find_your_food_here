@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+	color: #fff;
+}
+
+.container-flex-row {
+	display: flex;
+	justify-content: space-between;
+  align-items: center
+}
+
+.container-flex-column {
+  display: flex;
+	flex-direction:column;
+  justify-content: center;
+  align-items: center;
+	padding: 1em;
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+.buton_responsive{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buton_home{
+  margin-top: 7em;
+  width: 60%;
+  height: auto;
+  margin-right: 1em;
+}
+
+.background_home {
+  background-image: url(../assets/images/comida.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+	}
+
+  .mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  .image_mapa{
+    width:90%;
+    height: auto;
+  }
+  .title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 1em;
+  }
+
+  .imagen_comida{
+    width:100%;
+    height:auto;
+    margin-top:1em;
+  }
