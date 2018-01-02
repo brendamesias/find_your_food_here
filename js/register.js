@@ -1,15 +1,18 @@
+
 $(document).ready(function() {
-  /**
-   * console.log(window.location);
-   setTimeout(function() {
-     window.location.href = 'signup.html';
-   }, 8000);
-   */
-  /* // Seleccionamos los elementos del DOM
-  var $btnSignUp = $('#signup');
-  var $btnLogin = $('#login');
-  // Asociamos el evento click
-  $btnSignUp.on('click', function() {
-    alert('hola');
-  }); */
+
+  $('#enviar').click(function(event) {
+    event.preventDefault();
+    let valorDeInput = $('#buscar_comida').val();
+
+    for (let i = 0; i < tiposDeComida.length; i++) {
+      if (tiposDeComida[i].name === valorDeInput) {
+        let valor = tiposDeComida[i][valorDeInput]['platos'];
+        valor.forEach(function(elemento) {
+          let valorImg = elemento.photo;
+          $('#fotos_comidas').append(`<img src=${valorImg} />`);
+        });
+      }
+    }
+  });
 });
