@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<link rel="stylesheet" href="../css/main.css">
-	<title>JqueryJojojo</title>
+	<title>find your food here</title>
 </head>
 <body class="background_home container-flex-column vh100">
 		<div class="container">
@@ -19,22 +19,24 @@
 					</div>
 					<form>
 					  <div class="input-group">
-					    <input type="text" class="form-control" placeholder="¿Qué tipo de comida buscas?" list="tipos_de_comidas">
+					    <input id='buscar_comida'  type="text" class="form-control" placeholder="¿Qué tipo de comida buscas?" list="tipos_de_comidas">
 							<datalist id="tipos_de_comidas">
 							    <option value="comida japonesa"></option>
 							    <option value="comida peruana"></option>
 							    <option value="comida mexicana"></option>
 							</datalist>
 					    <div class="input-group-btn">
-					      <button class="btn btn-default" type="submit" id='enviar'>
+					      <button class="btn btn-default" type="submit" id='enviar' >
 					        <i class="glyphicon glyphicon-search"></i>
 					      </button>
 					    </div>
 					  </div>
 					</form>
+
 					<div id="fotos_comidas">
-						<img src="" alt="">
+
 					</div>
+
 					<img src="../assets/images/comida_peruana.jpg" alt="comida" class="imagen_comida">
 				</div>
 		 </div>

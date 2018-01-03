@@ -71,3 +71,13 @@ justify-content: center;
     margin-top:1em;
     border-radius: 7%;
   }
+
+img {
+  width: 120px;
+}
+.display_none{
+  display: none;
+}
+.border_radius{
+  border-radius: 50%;
+}

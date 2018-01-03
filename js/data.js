@@ -1,25 +1,30 @@
-var tiposDeComidas = {
-  'comida japonesa': {
-    'platos': [
-      {
-        name: 'pollo terikayi',
-        photo: 'https://www.recetin.com/wp-content/uploads/2014/10/pollo_teriyaki.jpg',
-      },
-      {
-        name: 'sashimi japon',
-        photo: 'https://www.manusmenu.com/wp-content/uploads/2016/05/1-Salmon-Sashimi-with-Ponzu-3-1-of-1.jpg',
-      },
-      {
-        name: 'sopa ramen',
-        photo: 'https://www.orientalmarket.es/wp-content/uploads/2016/07/ramen-1024x683.jpeg',
-      },
-      {
-        name: 'sushi',
-        photo: 'https://images-na.ssl-images-amazon.com/images/I/71nYq1V-LQL._SL1280_.jpg',
-      },
-    ]
+var tiposDeComida = [
+  {
+    'name': 'comida japonesa',
+    'comida japonesa': {
+      'platos': [
+        {
+          name: 'pollo terikayi',
+          photo: 'https://www.recetin.com/wp-content/uploads/2014/10/pollo_teriyaki.jpg',
+        },
+        {
+          name: 'sashimi japon',
+          photo: 'https://www.manusmenu.com/wp-content/uploads/2016/05/1-Salmon-Sashimi-with-Ponzu-3-1-of-1.jpg',
+        },
+        {
+          name: 'sopa ramen',
+          photo: 'https://www.orientalmarket.es/wp-content/uploads/2016/07/ramen-1024x683.jpeg',
+        },
+        {
+          name: 'sushi',
+          photo: 'https://images-na.ssl-images-amazon.com/images/I/71nYq1V-LQL._SL1280_.jpg',
+        },
+      ]
+    }
   },
-  'comida peruana': {
+  {
+    'name': 'comida peruana',
+    'comida peruana': {
     'platos': [
       {
         name: 'aji de gallina',
@@ -38,8 +43,10 @@ var tiposDeComidas = {
         photo: 'http://images-gmi-pmc.edge-generalmills.com/64f291cd-4e9c-47ca-af38-cebf1214b177.jpg',
       },
     ]
-  },
-  'comida mexicana': {
+  }},
+  {
+    'name': 'comida mexicana',
+    'comida mexicana': {
     'platos': [
       {
         name: 'chiles en nogada',
@@ -58,7 +65,5 @@ var tiposDeComidas = {
         photo: 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/7/10/1/RX-Rotel_Beef-Enchiladas-Rancheras_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371609442565.jpeg',
       },
     ]
-  },
-};
-
-console.log(tiposDeComidas);
+  }},
+]
